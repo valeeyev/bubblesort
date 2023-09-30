@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bubble sort algorithm</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="bubblesort.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="documentation">
+      <header>
+        <div class="title">
+          <h1>Bubble Sort algoritmi</h1>
+        </div>
+      </header>
+      <div class="info">
+        <p>Bubble sort ikki qo'shni elementni solishtirish va ular mo'ljallangan tartibda bo'lmaguncha, ularni
+          almashtiradigan
+          tartiblash algoritmidir. Xuddi suv yuzasiga ko'tarilgan havo pufakchalarining harakati kabi, massivning har
+          bir
+          elementi
+          har bir iteratsiyada oxirigacha harakat qiladi. Shuning uchun u pufakchali saralash deb ataladi.<a
+            style="color: #00d31c;" href="https://uz.wikipedia.org/wiki/Bubble_sort">VikipediyA.<i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+      </div>
+      <div class="animation">
+        <img src="assets/Bubble-sort.gif" alt="">
+      </div>
+    </div>
+
+    <div class="demo">
+      <h3>istalgan tartibdagi sonlar qtorini kiriting!</h3>
+      <label for="inputNumbers">sonlarni vergul bilan ajratib kiriting:</label>
+      <div class="run">
+        <input type="text" placeholder="5,9,4,3,1,2...kabi" id="inputNumbers">
+        <div class="buttons">
+          <button class="btn" onclick="sortNumbers('asc')">o'sish tartibda</button>
+          <button class="btn" onclick="sortNumbers('desc')">kamayish tartibda</button>
+        </div>
+      </div>
+
+      <div id="output">
+        <p>---</p>
+      </div>
+    </div>
+    <div class="source">
+      <p>source code <a style="color: #00d31c;" href="#">githubda.<i
+            class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="footer">
+      <i class='bx bx-copyright'></i>
+      <p>BarkamolValiyev</p>
+      <p class="num">2023</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
