@@ -114,6 +114,14 @@ header h1 {
   background-color: transparent;
   margin: 1rem auto;
 }
+.btn1:focus{
+  bacground-color: #00d31c; 
+  color: #1f1f1f;
+}
+.btn2:focus{
+   bacground-color: #00d31c; 
+  color: #1f1f1f;
+}
 .btn {
   border-radius: 0.2rem;
   padding: 0.4rem 0.5rem;
@@ -124,14 +132,6 @@ header h1 {
   border: #058215 2px dashed;
   color: #b7b7b7;
   cursor:pointer;
-}
-.btn1:focus{
-  bacground-color: #00d31c; 
-  color: #1f1f1f;
-}
-.btn2:focus{
-   bacground-color: #00d31c; 
-  color: #1f1f1f;
 }
 #output {
   font-size: medium;
