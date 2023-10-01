@@ -115,12 +115,10 @@ header h1 {
   margin: 1rem auto;
 }
 .btn1:focus{
-  bacground: #00d31c; 
-  color: #1f1f1f;
+  color: #00d31c;
 }
 .btn2:focus{
-   bacground: #00d31c; 
-  color: #1f1f1f;
+  color: #00d31c;
 }
 .btn {
   border-radius: 0.2rem;
