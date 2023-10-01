@@ -123,6 +123,7 @@ header h1 {
   outline: none;
   border: #058215 2px dashed;
   color: #b7b7b7;
+  cursor:pointer;
 }
 .btn1:active{
   bacground-color:#058215; 
