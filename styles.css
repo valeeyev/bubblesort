@@ -125,11 +125,11 @@ header h1 {
   color: #b7b7b7;
   cursor:pointer;
 }
-.btn1:active{
+.btn1:focus{
   bacground-color:#058215; 
   color:#1f1f1f;
 }
-.btn2:active{
+.btn2:focus{
    bacground-color:#058215; 
   color:#1f1f1f;
 }
