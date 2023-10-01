@@ -124,6 +124,14 @@ header h1 {
   border: #058215 2px dashed;
   color: #b7b7b7;
 }
+.btn1:active{
+  bacground-color:#058215; 
+  color:#1f1f1f;
+}
+.btn2:active{
+   bacground-color:#058215; 
+  color:#1f1f1f;
+}
 #output {
   font-size: medium;
   font-family: var(--headfon0);
