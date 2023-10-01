@@ -126,17 +126,18 @@ header h1 {
   cursor:pointer;
 }
 .btn1:focus{
-  bacground-color:#058215; 
-  color:#1f1f1f;
+  bacground-color: #00d31c; 
+  color: #1f1f1f;
 }
 .btn2:focus{
-   bacground-color:#058215; 
-  color:#1f1f1f;
+   bacground-color: #00d31c; 
+  color: #1f1f1f;
 }
 #output {
   font-size: medium;
   font-family: var(--headfon0);
   border: #058215;
+  color: #00d31c;
 }
 .source {
   color: #b7b7b7;
